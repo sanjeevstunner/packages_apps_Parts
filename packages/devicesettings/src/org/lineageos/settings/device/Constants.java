@@ -20,11 +20,4 @@ public class Constants {
     public static final String KEY_KPROFILES_MODES = "pref_kprofiles_modes";
     public static final String KPROFILES_MODES_NODE = "/sys/module/kprofiles/parameters/kp_mode";
     public static final String KPROFILES_MODES_INFO = "pref_kprofiles_modes_info";
-
-    public static final String KEY_HEADPHONE_GAIN = "headphone_gain";
-    public static final String HEADPHONE_GAIN_NODE = "/sys/kernel/sound_control/headphone_gain";
-    public static final String KEY_MICROPHONE_GAIN = "microphone_gain";
-    public static final String MICROPHONE_GAIN_NODE = "/sys/kernel/sound_control/mic_gain";
-    public static final String KEY_SPEAKER_GAIN = "speaker_gain";
-    public static final String SPEAKER_GAIN_NODE = "/sys/kernel/sound_control/speaker_gain";
 }
