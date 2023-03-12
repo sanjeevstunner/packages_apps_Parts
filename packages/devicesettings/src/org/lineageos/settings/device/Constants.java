@@ -10,9 +10,6 @@ public class Constants {
 
     public static final String DC_DIMMING_NODE = "/sys/devices/platform/soc/soc:qcom,dsi-display/anti_flicker";
 
-    public static final String KEY_HBM = "pref_hbm";
-    public static final String HBM_NODE = "/sys/devices/platform/soc/soc:qcom,dsi-display/hbm";
-
     public static final String DEFAULT_REFRESH_RATE_CONFIG = "120-120";
 
     public static final String KEY_KPROFILES_AUTO = "pref_kprofiles_auto";

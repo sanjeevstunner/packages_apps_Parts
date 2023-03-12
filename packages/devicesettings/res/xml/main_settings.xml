@@ -53,12 +53,6 @@
             android:summary="@string/dc_dimming_summary"
             android:icon="@drawable/ic_dc_dimming"/>
 
-        <SwitchPreference
-            android:key="pref_hbm"
-            android:title="@string/hbm_title"
-            android:summary="@string/hbm_summary" 
-            android:icon="@drawable/ic_hbm"/>
-
     </PreferenceCategory>
 
     <PreferenceCategory

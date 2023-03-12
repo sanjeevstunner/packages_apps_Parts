@@ -48,7 +48,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
 
         DisplayUtils.setDcDimmingStatus(sharedPreferences.getBoolean(Constants.KEY_DC_DIMMING, false));
-        DisplayUtils.setHBMStatus(sharedPreferences.getBoolean(Constants.KEY_HBM, false));
         DisplayUtils.updateRefreshRateSettings(context);
         if (DEBUG)
             Log.d(TAG, "Received boot completed intent");
